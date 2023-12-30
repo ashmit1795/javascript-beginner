@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color the Boxes</title>
+    <style>
+        .container{
+            display: flex;
+            flex-direction: column ;
+            justify-content: center;
+            align-items: center;
+            gap: 23px;
+        }
+        .wrapper-container{
+            display: flex;
+            gap: 23px;
+        }
+        .box{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 45px;
+            width: 45px;
+            border: 2px solid black; 
+        }
+    </style>
+</head>
+<body>
+    <!-- Given 5 boxes, Assign a random color and a random background to each box using DOM concepts-->
+    <div class="container">
+        <p>Refresh the page to change the color of boxes:</p>
+        <div class="wrapper-container">
+            <div class="box">Box</div>
+            <div class="box">Box</div>
+            <div class="box">Box</div>
+            <div class="box">Box</div>
+            <div class="box">Box</div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
